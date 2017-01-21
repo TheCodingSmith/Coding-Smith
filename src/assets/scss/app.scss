@@ -4,6 +4,15 @@
 @import 'foundation';
 @import 'motion-ui';
 
+// Personal CSS
+@import 'components/colors';
+@import 'components/overrides';
+.portfolio {
+	@import 'components/settings';
+	@import 'nav';
+}
+
+
 @include foundation-global-styles;
 @include foundation-grid;
 // @include foundation-flex-grid;
