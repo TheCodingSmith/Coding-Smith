@@ -9,7 +9,9 @@
 @import 'components/overrides';
 .portfolio {
 	@import 'components/settings';
-	@import 'nav';
+	@import 'partials/nav';
+	@import 'partials/skills';
+	@import 'partials/main-info';
 }
 
 
