@@ -7,10 +7,13 @@
 // Personal CSS
 @import 'components/colors';
 @import 'components/overrides';
+
 .portfolio {
 	@import 'components/settings';
+	@import 'partials/chapters';
 	@import 'partials/nav';
 	@import 'partials/skills';
+	@import 'partials/companies';
 	@import 'partials/main-info';
 }
 

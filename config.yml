@@ -18,7 +18,7 @@ UNCSS_OPTIONS:
 # Gulp will reference these paths when it copies files
 PATHS:
   # Path to dist folder
-  dist: "dist"  
+  dist: "dist"
   # Paths to static assets that aren't images, CSS, or JavaScript
   assets:
     - "src/assets/**/*"
@@ -27,6 +27,9 @@ PATHS:
   sass:
     - "bower_components/foundation-sites/scss"
     - "bower_components/motion-ui/src"
+    - "bower_components/motion-ui/src"
+    - "bower_components/Ionicons/scss"
+
   # Paths to JavaScript libraries, which are combined into one file
   javascript:
     # Libraries required by Foundation

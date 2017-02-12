@@ -1,26 +1,9 @@
 .skills {
-	background-color: $color-vis-vis;
-	height: 100%;
+	// background-color: $color-nordic;
+	// border-top: 10px solid $color-vis-vis;
+	// border-bottom: 10px solid $color-vis-vis;
 	width: 100%;
-	.heading {
-		background-color: $color-light-sea-green;
-		padding: 0 15px;
-		position: relative;
-		&::after {
-			background-color: $color-nordic;
-			content: '';
-			height: 50px;
-			position: absolute;
-			top: 0;
-			width: 325px;
-			z-index: 1;
-		}
-		h2 {
-			color: $color-light-sea-green;
-			z-index: 2;
-			position: relative;
-		}
-	}
+
 	.icons {
 		display: flex;
 		flex-direction: row;

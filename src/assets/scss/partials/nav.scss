@@ -1,7 +1,11 @@
 nav {
-	background-color: $color-feta;
+	border: 2px solid $color-light-sea-green;
+	border-top: none;
+	border-radius: 2px;
+	margin-top: 10px;
 	padding: 10px 15px;
 	text-align: right;
+
 	.navigation-button {
 		color: $color-light-sea-green;
 		font-size: 25px;
