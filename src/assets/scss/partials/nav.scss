@@ -1,13 +1,44 @@
+@keyframes open {
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 10;
+	}
+}
+
 nav {
 	border: 2px solid $color-light-sea-green;
 	border-top: none;
 	border-radius: 2px;
-	margin-top: 10px;
-	padding: 10px 15px;
+	margin-bottom: 15px;
+	padding: 5px 10px;
 	text-align: right;
 
-	.navigation-button {
-		color: $color-light-sea-green;
-		font-size: 25px;
+	.navigation-container {
+		i{
+			color: $color-light-sea-green;
+			font-size: 25px;
+		}
+		button {
+			display: inline-block;
+			position: relative;
+			&:hover {
+				span {
+					animation: open 1s linear;
+					display: inline-block;
+					opacity: 10;
+				}
+			}
+		}
+		span {
+			background-color: $color-light-sea-green;
+			border-radius: 2px;
+			color: $color-white;
+			display: none;
+			font-size: 20px;
+			padding: 2.5px;
+			// position: absolute;
+		}
 	}
 }
