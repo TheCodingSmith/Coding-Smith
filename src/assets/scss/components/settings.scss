@@ -1,8 +1,19 @@
-h1,
-p {
+h1,p {
 	color: $color-main;
 }
 
+a,p,li,span {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	line-height: 1.2;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Lobster', cursive;
+}
+
 .container {
-	padding: 0 10px
+	padding: 0 10px;
+	margin: 0 auto;
+	max-width: 1220px;
 }

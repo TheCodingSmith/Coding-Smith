@@ -1,19 +1,23 @@
 @keyframes open {
-	0%{
-		opacity: 0;
-	}
-	100%{
-		opacity: 10;
-	}
+	0%{opacity: 0;}
+	100%{opacity: 10;}
+}
+@keyframes close {
+	0%{opacity: 10;display: inline-block;}
+	99%{display: inline-block;}
+	100%{display: none;}
 }
 
 nav {
+	background-color: $color-black-transparent;
 	border: 2px solid $color-light-sea-green;
 	border-top: none;
 	border-radius: 2px;
+	display: inline-block;
 	margin-bottom: 15px;
 	padding: 5px 10px;
 	text-align: right;
+	width: 74%;
 
 	.navigation-container {
 		i{
@@ -32,13 +36,22 @@ nav {
 			}
 		}
 		span {
+			animation: close 1s linear;
 			background-color: $color-light-sea-green;
 			border-radius: 2px;
-			color: $color-white;
 			display: none;
+			color: $color-white;
 			font-size: 20px;
 			padding: 2.5px;
 			// position: absolute;
 		}
+	}
+}
+
+.title {
+	display: inline-block;
+	width: 25%;
+	h6 {
+		text-align: center;
 	}
 }
