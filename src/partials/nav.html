@@ -1,7 +1,7 @@
 <!-- TODO: add the buttons dynamically(?) -->
 <!-- TODO: add buttons to a partial -->
 <!-- TODO: http://fontawesome.io/icons/#new -->
-<div class="container">
+<!-- <div class="container">
 	<div class="row">
 		<nav>
 			<div class="navigation-container">
@@ -14,11 +14,36 @@
 					</i>
 					<span>GitHub</span>
 				</button>
-				<i class="fa fa-bolt" alt="Get it"></i>
+				<button>
+					<a href="https://www.linkedin.com/in/miceonfire/" target="_blank">
+						<i class="fa fa-linkedin" alt="Get it"></i>
+						<span>LinkedIn</span>
+					</a>
+				</button>
 				<i class="fa fa-code" alt="Get it"></i>
-				<i class="fa fa-credit-ca" alt="Get it"></i>
-				<i class="fa leaf" alt="Get it"></i>
+				<i class="fa fa-credit-card" alt="Get it"></i>
+				<i class="fa fa-leaf" alt="Get it"></i>
 				<i class="fa fa-paper-plane"></i>
+			</div>
+		</nav>
+	</div>
+</div> -->
+
+
+<div class="container">
+	<div class="row">
+		<nav>
+			<div class="navigation-container">
+				{{#if portfolio.navigation}}
+				{{#each portfolio.navigation}}
+					<button>
+						<!-- <a href="{{this.href}}" target="_blank"> -->
+							<i class="fa fa-{{this.icon}}"></i>
+							<span>{{this.copy}}</span>
+						<!-- </a> -->
+					</button>
+				{{/each}}
+				{{/if}}
 			</div>
 		</nav>
 	</div>

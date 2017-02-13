@@ -1,0 +1,11 @@
+[{
+	"navigation": [{
+		"copy": "Home",
+		"href": "#",
+		"icon": "home"
+	}, {
+		"copy": "github",
+		"href": "#",
+		"icon": "github"
+	}]
+}]
