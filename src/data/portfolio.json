@@ -4,11 +4,11 @@
 		"copy": "Home",
 		"href": "#",
 		"icon": "home"
-	}, {
+		}, {
 		"copy": "github",
 		"href": "https://github.com/TheCodingSmith",
 		"icon": "github"
-	}, {
+		}, {
 		"copy": "contact",
 		"href": "mailto:quackstarcs@gmail.com",
 		"icon": "paper-plane"
@@ -16,5 +16,14 @@
 		"copy": "linkedin",
 		"href": "https://www.linkedin.com/in/miceonfire/",
 		"icon": "linkedin"
+		}],
+	"skills": [{
+		"class": "git"
+		}, {
+		"class": "github-alt"
+		}, {
+		"class": "html5"
+		}, {
+		"class": "diamond"	
 		}]
 }
