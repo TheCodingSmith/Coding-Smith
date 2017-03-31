@@ -3,7 +3,12 @@
 		{{#if portfolio.skills}}
 		{{#each portfolio.skills}}
 
-			<i class="fa fa-{{this.class}}" aria-hidden="true"></i>
+			<div class="small-4 small-centered medium-1 columns">
+				<i class="fa fa-{{this.class}}" aria-hidden="true"></i>
+				<div class="info">
+					<p>{{this.hover}}</p>
+				</div>
+			</div>
 
 		{{/each}}
 		{{/if}}
