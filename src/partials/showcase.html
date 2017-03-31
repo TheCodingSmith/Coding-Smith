@@ -5,7 +5,7 @@
 	<div class="row">
 		{{#if portfolio.showcase}}
 		{{#each portfolio.showcase}}
-			<a href="/showcase.html" target="_blank">
+			<a href="/showcase.html#{{this.image}}" target="_blank">
 				<div class="small-12 medium-8 large-6 columns">
 					<div class="slide">
 						<img src="../assets/img/{{this.image}}/thumbnail.png" alt="{{this.alt}}">

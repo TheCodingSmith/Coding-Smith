@@ -18,7 +18,6 @@
 	@import 'partials/skills';
 }
 
-
 @include foundation-global-styles;
 @include foundation-grid;
 @include foundation-flex-grid;
@@ -60,7 +59,7 @@
 @include foundation-top-bar;
 @include foundation-visibility-classes;
 @include foundation-float-classes;
-// @include foundation-flex-classes;
+@include foundation-flex-classes;
 
 @include motion-ui-transitions;
 @include motion-ui-animations;
