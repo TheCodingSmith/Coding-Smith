@@ -1,16 +1,26 @@
 <div class="container showcase">
 	<div class="row">
+		<a href="/portfolio.html" class="button">Full Showcase</a>
+	</div>
+	<div class="row">
 		{{#if portfolio.showcase}}
 		{{#each portfolio.showcase}}
-		<div class="small-block-grid-2 medium-block-grid-3 large-block-grid-4">
-			<div class="slide">
-				<img src="../assets/img/{{this.image}}/thumbnail.png" alt="{{this.alt}}">
-				<div class="copy">
-					<span>{{this.title}}</span>
-					<p>{{this.summary}}</p>
+			<a href="/showcase.html" target="_blank">
+				<div class="small-12 medium-8 large-6 columns">
+					<div class="slide">
+						<img src="../assets/img/{{this.image}}/thumbnail.png" alt="{{this.alt}}">
+						<div class="copy">
+							<span>{{this.title}}</span>
+							<p>{{this.summary}}</p>
+
+							{{#if this.href}}
+								<a href="{{this.href}}" class="button" target="_blank">See site</a>
+							{{/if}}
+
+						</div>
+					</div>
 				</div>
-			</div>
-		</div>
+			</a>
 		{{/each}}
 		{{/if}}
 	</div>

@@ -39,22 +39,28 @@
    "showcase":[
       {
          "title": "Accomplishments Report",
-         "summary": "",
+         "summary": "The Accomplishment Report for Cincinnati Children's is a collection of articles and staff for each department.",
+				 "details": "Made with Ruby on Rails with HAML and Sass. I was responsible for building the main page and article pages. each component is made using flex and partials so we can use an admin system to dynamically serve each page.",
 				 "image": "accomplishment-report",
 				 "href": "http://accomplishments.cincinnatichildrens.org/urology/2017/overview"
       },
       {
          "title": "Annual Protection",
+				 "summary": "Webpage for Mobil 1 Oil's new Annual Protection.",
+				 "details": "We used animations with scrollmagic to get a nice slide and fade effect. Built on Ruby on Rails with HAML and Sass.",
 				 "image": "annual-protection",
 				 "href": "https://mobiloil.com/en/article/why-the-mobil-advantage/mobil-1-performance/mobil-1-annual-protection-long-lasting-oil?WT.ac=Home-JT_m1ap-ep-oil-filter"
       },
 			{
-				"title": "illy Various sites",
-				"image": "illy",
-				"href": "http://enjoy.illy.com/corporate-gifts/"
+				"title": "illy Various Pages",
+				"summary": "Multiple pages for shop.illy",
+				"details": "Several corporate illy shop pages that are not readily avaialable to the public. These were all single pages for their Holiday guide, coffee origins and espresso comparisons.",
+				"image": "illy"
 			},
 			{
 				"title": "Liberty Campus",
+				"summary": "Website for Cincinnati Children's newer Liberty Campus",
+				"details": "Made with Ruby on Rails, I worked on the second 'sports Med' page where I took elements from the main page, turned them into partials and reapplied/reskinned them for a new purpose.",
 				"image": "liberty",
 				"href": "http://liberty.cincinnatichildrens.org/"
 			}

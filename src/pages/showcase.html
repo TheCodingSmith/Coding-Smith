@@ -1,0 +1,28 @@
+<div class="container showcase">
+
+	<div class="row">
+		{{#if portfolio.showcase}}
+		{{#each portfolio.showcase}}
+			<div class="row">
+				<div class="small-12 medium-6 columns desktop-view">
+					<img src="../assets/img/{{this.image}}/large.png" alt="{{this.alt}}">
+					<h1>{{this.title}}</h1>
+
+					{{#if this.details}}
+						<p>{{this.summary}}{{this.details}}</p>
+					{{/if}}
+
+					{{#if this.href}}
+						<a href="{{this.href}}" class="button" target="_blank">{{this.title}}</a>
+					{{/if}}
+
+				</div>
+				<div class="small-12 medium-6 columns mobile-view">
+					<img src="../assets/img/{{this.image}}/mobile.png" alt="{{this.alt}}">
+				</div>
+
+		</div>
+		{{/each}}
+		{{/if}}
+	</div>
+</div>
