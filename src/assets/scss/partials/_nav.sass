@@ -1,0 +1,62 @@
+@keyframes open
+	0%
+		opacity: 0
+	100%
+		opacity: 10
+
+@keyframes close
+	0%
+		display: inline-block
+		opacity: 10
+	99%
+		display: inline-block
+	100%
+		display: none
+
+nav
+	background-image: url("../img/bg.png")
+	border-bottom: 2px solid $color-light-sea-green
+	left: 0
+	margin-bottom: 15px
+	padding: 10px
+	position: fixed
+	text-align: right
+	top: 0
+	width: 100%
+	@include breakpoint(tablet)
+		border: 2px solid $color-light-sea-green
+		border-top: 0
+		display: inline-block
+		padding: 5px 10px
+		position: relative
+		width: 74%
+
+	.navigation-container
+		i
+			color: $color-light-sea-green
+			font-size: 25px
+
+		button
+			display: inline-block
+			position: relative
+			&:hover
+				span
+					animation: open 1s linear
+					display: inline-block
+					opacity: 10
+
+		span
+			animation: close 1s linear
+			background-color: $color-light-sea-green
+			border-radius: 2px
+			display: none
+			color: $color-white
+			font-size: 20px
+			padding: 2.5px
+			// position: absolute
+
+.title
+	display: inline-block
+	width: 25%
+	h6
+		text-align: center
