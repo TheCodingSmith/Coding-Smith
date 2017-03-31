@@ -1,0 +1,17 @@
+<div class="container showcase">
+	<div class="row">
+		{{#if portfolio.showcase}}
+		{{#each portfolio.showcase}}
+		<div class="small-block-grid-2 medium-block-grid-3 large-block-grid-4">
+			<div class="slide">
+				<img src="../assets/img/{{this.image}}/thumbnail.png" alt="{{this.alt}}">
+				<div class="copy">
+					<span>{{this.title}}</span>
+					<p>{{this.summary}}</p>
+				</div>
+			</div>
+		</div>
+		{{/each}}
+		{{/if}}
+	</div>
+</div>

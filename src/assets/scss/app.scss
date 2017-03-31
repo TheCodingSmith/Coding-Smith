@@ -11,16 +11,17 @@
 
 .portfolio {
 	@import 'components/settings';
-	@import 'partials/nav';
-	@import 'partials/skills';
 	@import 'partials/companies';
 	@import 'partials/main-info';
+	@import 'partials/nav';
+	@import 'partials/showcase';
+	@import 'partials/skills';
 }
 
 
 @include foundation-global-styles;
 @include foundation-grid;
-// @include foundation-flex-grid;
+@include foundation-flex-grid;
 @include foundation-typography;
 @include foundation-button;
 @include foundation-forms;

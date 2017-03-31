@@ -1,0 +1,28 @@
+.showcase
+	.row
+		justify-content: center
+
+.slide
+	box-shadow: 5px 5px 10px $color-black-transparent
+	height: 250px
+	margin: 7.5px
+	position: relative
+	width: 250px
+
+	&:hover
+		.copy
+			display: block
+
+	img
+		height: 100%
+		width: 100%
+
+	span,
+	p
+		background-color: $color-black
+		color: $color-white
+
+	.copy
+		display: none
+		bottom: 0
+		position: absolute

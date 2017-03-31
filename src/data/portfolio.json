@@ -1,29 +1,62 @@
 {
-	"title": "Coding Smith.io",
-	"navigation": [{
-		"copy": "Home",
-		"href": "#",
-		"icon": "home"
-		}, {
-		"copy": "github",
-		"href": "https://github.com/TheCodingSmith",
-		"icon": "github"
-		}, {
-		"copy": "contact",
-		"href": "mailto:quackstarcs@gmail.com",
-		"icon": "paper-plane"
-		}, {
-		"copy": "linkedin",
-		"href": "https://www.linkedin.com/in/miceonfire/",
-		"icon": "linkedin"
-		}],
-	"skills": [{
-		"class": "git"
-		}, {
-		"class": "github-alt"
-		}, {
-		"class": "html5"
-		}, {
-		"class": "diamond"	
-		}]
+   "title":"Coding Smith.io",
+   "navigation":[
+      {
+         "copy":"Home",
+         "href":"#",
+         "icon":"home"
+      },
+      {
+         "copy":"github",
+         "href":"https://github.com/TheCodingSmith",
+         "icon":"github"
+      },
+      {
+         "copy":"contact",
+         "href":"mailto:quackstarcs@gmail.com",
+         "icon":"paper-plane"
+      },
+      {
+         "copy":"linkedin",
+         "href":"https://www.linkedin.com/in/miceonfire/",
+         "icon":"linkedin"
+      }
+   ],
+   "skills":[
+      {
+         "class":"git"
+      },
+      {
+         "class":"github-alt"
+      },
+      {
+         "class":"html5"
+      },
+      {
+         "class":"diamond"
+      }
+   ],
+   "showcase":[
+      {
+         "title": "Accomplishments Report",
+         "summary": "",
+				 "image": "accomplishment-report",
+				 "href": "http://accomplishments.cincinnatichildrens.org/urology/2017/overview"
+      },
+      {
+         "title": "Annual Protection",
+				 "image": "annual-protection",
+				 "href": "https://mobiloil.com/en/article/why-the-mobil-advantage/mobil-1-performance/mobil-1-annual-protection-long-lasting-oil?WT.ac=Home-JT_m1ap-ep-oil-filter"
+      },
+			{
+				"title": "illy Various sites",
+				"image": "illy",
+				"href": "http://enjoy.illy.com/corporate-gifts/"
+			},
+			{
+				"title": "Liberty Campus",
+				"image": "liberty",
+				"href": "http://liberty.cincinnatichildrens.org/"
+			}
+   ]
 }
