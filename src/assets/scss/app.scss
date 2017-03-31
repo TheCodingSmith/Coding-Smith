@@ -10,17 +10,16 @@
 
 .portfolio {
 	@import 'components/settings';
-	@import 'partials/chapters';
-	@import 'partials/nav';
-	@import 'partials/skills';
 	@import 'partials/companies';
 	@import 'partials/main-info';
+	@import 'partials/nav';
+	@import 'partials/showcase';
+	@import 'partials/skills';
 }
-
 
 @include foundation-global-styles;
 @include foundation-grid;
-// @include foundation-flex-grid;
+@include foundation-flex-grid;
 @include foundation-typography;
 @include foundation-button;
 @include foundation-forms;
@@ -59,7 +58,7 @@
 @include foundation-top-bar;
 @include foundation-visibility-classes;
 @include foundation-float-classes;
-// @include foundation-flex-classes;
+@include foundation-flex-classes;
 
 @include motion-ui-transitions;
 @include motion-ui-animations;

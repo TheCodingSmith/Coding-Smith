@@ -1,0 +1,52 @@
+@keyframes open
+	0%
+		right: -100%
+		opacity: 0
+	100%
+		right: 0
+		opacity: 100
+
+nav
+	background-color: $color-white
+	background-image: url("../img/bg.png")
+	border: 2px solid $color-light-sea-green
+	border-top: none
+	left: 0
+	margin-bottom: 15px
+	padding: 10px
+	text-align: right
+	top: 0
+	width: 75%
+
+
+	.navigation-container
+		i
+			color: $color-light-sea-green
+			font-size: 25px
+
+		button
+			display: inline-block
+			position: relative
+
+			&:hover
+				span
+					display: block
+					animation: open .3s linear
+					animation-timing-function: ease-in
+					position: absolute
+					right: 0
+					opacity: 100
+
+		span
+			background-color: $color-light-sea-green
+			border-radius: 2px
+			display: none
+			color: $color-white
+			font-size: 20px
+			padding: 2.5px
+
+.title
+	display: inline-block
+	width: 25%
+	h6
+		text-align: center

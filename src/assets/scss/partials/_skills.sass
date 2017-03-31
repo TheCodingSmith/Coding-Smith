@@ -1,0 +1,43 @@
+@keyframes slide-up
+	0%
+		bottom: -200%
+	100%
+		bottom: -100%
+
+.skills
+	padding-bottom: 10px
+	width: 100%
+
+	.icons
+		position: relative
+
+		div
+			&:hover
+				.info
+					animation-timing-function: ease-in
+					animation: slide-up .3s
+					bottom: -100%
+					display: block
+					left: 0
+
+		i
+			color: $color-light-sea-green
+			font-size: 60px
+
+			&.fa-diamond
+				color: $color-red-ruby
+
+			&.fa-git,
+			&.fa-github-alt
+				color: $color-black
+
+	.info
+		background-color: $color-main
+		border-radius: 5px
+		display: none
+		padding: 15px
+		position: absolute
+
+		p
+			color: $color-white
+			margin-bottom: 0
