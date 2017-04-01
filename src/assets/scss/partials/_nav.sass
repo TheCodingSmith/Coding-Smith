@@ -1,10 +1,11 @@
 @keyframes open
 	0%
-		right: -100%
-		opacity: 0
+		transform: rotateX(90deg)
+		-webkit-transform: rotateX(90deg)
+
 	100%
-		right: 0
-		opacity: 100
+		transform: rotateX(0deg)
+		-webkit-transform: rotateX(0deg)
 
 nav
 	background-color: $color-white
@@ -25,10 +26,21 @@ nav
 			font-size: 25px
 
 		button
+			perspective: 2000px
+			perspective-origin: calc(100% - 71px)
+			-webkit-perspective: 2000px
+			-webkit-perspective-origin: calc(100% - 71px)
+		button
 			display: inline-block
 			position: relative
 
+
 			&:hover
+				span
+					perspective: 200px
+					transform: rotateX(0deg)
+					-webkit-perspective: 200px
+					-webkit-transform: rotateX(0deg)
 				span
 					display: block
 					animation: open .3s linear
@@ -36,6 +48,12 @@ nav
 					position: absolute
 					right: 0
 					opacity: 100
+
+		span
+			perspective: 200px
+			transform: rotateX(90deg)
+			-webkit-perspective: 200px
+			-webkit-transform: rotateX(90deg)
 
 		span
 			background-color: $color-light-sea-green
