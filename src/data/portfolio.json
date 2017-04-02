@@ -3,23 +3,31 @@
    "navigation":[
       {
          "copy":"Home",
-         "href":"#",
+         "href":"/",
          "icon":"home"
       },
+			{
+				"copy": "Portfolio",
+				"href": "/showcase.html",
+				"icon": "briefcase "
+			},
       {
          "copy":"github",
          "href":"https://github.com/TheCodingSmith",
-         "icon":"github"
+         "icon":"github",
+				 "target":"_blank"
       },
       {
          "copy":"contact",
          "href":"mailto:quackstarcs@gmail.com",
-         "icon":"paper-plane"
+         "icon":"paper-plane",
+				 "target":"_blank"
       },
       {
          "copy":"linkedin",
          "href":"https://www.linkedin.com/in/miceonfire/",
-         "icon":"linkedin"
+         "icon":"linkedin",
+				 "target":"_blank"
       }
    ],
    "skills":[

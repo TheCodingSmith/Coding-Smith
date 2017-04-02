@@ -10,61 +10,60 @@
 nav
 	background-color: $color-white
 	background-image: url("../img/bg.png")
-	border: 2px solid $color-light-sea-green
-	border-top: none
-	left: 0
+	border-bottom: 2px solid $color-light-sea-green
+	// border-top: none
+	// left: 0
 	margin-bottom: 15px
 	padding: 10px
 	text-align: right
+
 	top: 0
-	width: 75%
+	width: 100%
+
+	position: fixed
+	z-index: 3
+
+	.home
+		color: $color-black
+
+	i
+		color: $color-light-sea-green
+		font-size: 25px
+
+	button
+		perspective: 2000px
+		perspective-origin: calc(100% - 71px)
+		-webkit-perspective: 2000px
+		-webkit-perspective-origin: calc(100% - 71px)
+	button
+		display: inline-block
+		position: relative
 
 
-	.navigation-container
-		i
-			color: $color-light-sea-green
-			font-size: 25px
+		&:hover
+			span
+				perspective: 200px
+				transform: rotateX(0deg)
+				-webkit-perspective: 200px
+				-webkit-transform: rotateX(0deg)
+			span
+				display: block
+				animation: open .3s linear
+				animation-timing-function: ease-in
+				position: absolute
+				right: 0
+				opacity: 100
 
-		button
-			perspective: 2000px
-			perspective-origin: calc(100% - 71px)
-			-webkit-perspective: 2000px
-			-webkit-perspective-origin: calc(100% - 71px)
-		button
-			display: inline-block
-			position: relative
+	span
+		perspective: 200px
+		transform: rotateX(90deg)
+		-webkit-perspective: 200px
+		-webkit-transform: rotateX(90deg)
 
-
-			&:hover
-				span
-					perspective: 200px
-					transform: rotateX(0deg)
-					-webkit-perspective: 200px
-					-webkit-transform: rotateX(0deg)
-				span
-					display: block
-					animation: open .3s linear
-					animation-timing-function: ease-in
-					position: absolute
-					right: 0
-					opacity: 100
-
-		span
-			perspective: 200px
-			transform: rotateX(90deg)
-			-webkit-perspective: 200px
-			-webkit-transform: rotateX(90deg)
-
-		span
-			background-color: $color-light-sea-green
-			border-radius: 2px
-			display: none
-			color: $color-white
-			font-size: 20px
-			padding: 2.5px
-
-.title
-	display: inline-block
-	width: 25%
-	h6
-		text-align: center
+	span
+		background-color: $color-light-sea-green
+		border-radius: 2px
+		display: none
+		color: $color-white
+		font-size: 20px
+		padding: 2.5px
