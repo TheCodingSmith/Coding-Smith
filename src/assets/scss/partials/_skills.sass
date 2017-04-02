@@ -2,6 +2,12 @@
 	0%
 		bottom: -200%
 	100%
+		bottom: -40%
+
+@keyframes slide-up-large
+	0%
+		bottom: -200%
+	100%
 		bottom: -100%
 
 @keyframes rainbow
@@ -30,9 +36,17 @@
 				.info
 					animation: slide-up .3s
 					animation-timing-function: ease-in
-					bottom: -100%
+					bottom: -40%
 					display: block
 					left: 0
+
+
+				@include breakpoint(medium)
+					.info
+						animation: slide-up-large .3s
+						animation-timing-function: ease-in
+						bottom: -100%
+
 
 		i
 			color: $color-light-sea-green
