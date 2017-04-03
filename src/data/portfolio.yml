@@ -4,8 +4,13 @@ contact:
     copy: "Tell me about your project in the form below."
     forms:
       -
-        placeholder: "Your Name"
-        name: "name"
+        placeholder: "First Name"
+        name: "frmFirstname"
+        required: true
+        type: text
+      -
+        placeholder: "Last Name"
+        name: "frmLastname"
         required: true
         type: text
       -

@@ -7,27 +7,36 @@
 				{{this.copy}}</p>
 			</div>
 		</div>
-		<form id="myForm" method="post" action="../mail.php">
-
+		<form method="POST" action="/_lib/phpmailer-fe.php" enctype="multipart/form-data">
+		<input type="hidden" value="sampleform.html" name="referer">
 			<div class="row">
 				{{#each this.forms}}
-					<div class="medium-6 columns">
+					<div class="small-12 medium-6 columns">
 						<input type="{{this.type}}" name="{{this.name}}" value="" placeholder="{{this.placeholder}}">
 					</div>
 				{{/each}}
 			</div>
 
 			<div class="row">
-				<div class="columns">
+				<div class="small-12 columns">
 					<label for="textarea">
-						<textarea name="message" rows="8" cols="80" placeholder="Tell me about your project"></textarea>
+						<textarea name="frmMessage" rows="8" cols="80" placeholder="Tell me about your project"></textarea>
 					</label>
 				</div>
 			</div>
 
 		<div class="row">
 			<div class="columns">
-				<input name="Submit" type="submit" class="button" value="Send Message" target="_blank">
+				<p>
+					<code>Please note: You might receive a 500 error while still under construction. We will receive your message.</code>
+				</p>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="columns">
+				<input type="submit" value="Submit" name="submit" class="button">
+				<input type="reset" value="Reset" name="reset" class="button">
 			</div>
 		</div>
 
