@@ -9,17 +9,21 @@
 				<i class="fa fa-paper-plane"></i>
 -->
 
-<div class="container">
-	<div class="row">
-		<nav>
-			<div class="navigation-container">
-				<span class="title">
+<nav>
+	<div class="container">
+		<div class="row">
+
+			<div class="large-3 small-12 columns">
+				<a href="/" class="home">
 					<h6>{{portfolio.title}}</h6>
-				</span>
+				</a>
+			</div>
+
+			<div class="large-8 small-12 columns">
 				{{#if portfolio.navigation}}
 				{{#each portfolio.navigation}}
 					<button>
-						<a href="{{this.href}}" target="_blank">
+						<a href="{{this.href}}" target="{{this.target}}">
 							<i class="fa fa-{{this.icon}}"></i>
 							<span>{{this.copy}}</span>
 						</a>
@@ -27,6 +31,7 @@
 				{{/each}}
 				{{/if}}
 			</div>
-		</nav>
+
+		</div>
 	</div>
-</div>
+</nav>

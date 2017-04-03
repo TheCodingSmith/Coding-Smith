@@ -14,12 +14,28 @@ h1,h2,h3,h4,h5,h6{
 	font-family: 'Lobster', cursive;
 }
 
+h1 {
+	font-size: 3.5rem;
+}
+
 .container {
 	padding: 0 10px;
 	margin: 0 auto;
 	max-width: 1220px;
 }
 
-.break {
-	height: 106px;
+footer {
+	background-color: $color-white;
+	border-top: 2px solid $color-light-sea-green;
+	display: block;
+	text-align: center;
+	position: static;
+	bottom: 0;
+	padding: 15px;
+	width: 100%;
+
+	p,a {
+		font-size: 11px;
+		margin-bottom: 3px;
+	}
 }

@@ -2,7 +2,27 @@
 	0%
 		bottom: -200%
 	100%
+		bottom: -40%
+
+@keyframes slide-up-large
+	0%
+		bottom: -200%
+	100%
 		bottom: -100%
+
+@keyframes rainbow
+	0%
+		color: $color-black
+	20%
+		color: $color-orange-html5
+	40%
+		color: $color-blue-css3
+	60%
+		color: $color-blue-wordpress
+	80%
+		color: $color-red-ruby
+	100%
+		color: $color-light-sea-green
 
 .skills
 	padding-bottom: 10px
@@ -14,22 +34,46 @@
 		div
 			&:hover
 				.info
-					animation-timing-function: ease-in
 					animation: slide-up .3s
-					bottom: -100%
+					animation-timing-function: ease-in
+					bottom: -40%
 					display: block
 					left: 0
+
+
+				@include breakpoint(medium)
+					.info
+						animation: slide-up-large .3s
+						animation-timing-function: ease-in
+						bottom: -100%
+
 
 		i
 			color: $color-light-sea-green
 			font-size: 60px
 
-			&.fa-diamond
-				color: $color-red-ruby
+			&:hover
 
-			&.fa-git,
-			&.fa-github-alt
-				color: $color-black
+				&.fa-
+					&css3
+						color: $color-blue-css3
+
+					&diamond
+						color: $color-red-ruby
+
+					&git,
+					&github-alt
+						color: $color-black
+
+					&html5
+						color: $color-orange-html5
+
+					&wordpress
+						color: $color-blue-wordpress
+
+					&code
+						animation: rainbow 3s infinite
+
 
 	.info
 		background-color: $color-main
