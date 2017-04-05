@@ -84,6 +84,13 @@ showcase:
     time: "February 2016 - April 2016"
     title: "Universal Package"
   -
+    details: "Using Wordpress with PHP, I modified a blank theme to create a new theme. Refugee Connect of Greater Cincinnati to help unite and educate resettled refugess."
+    href: "http://www.refugeeconnect.org/"
+    image: refugee-connect
+    summary: "Wordpress website Refugee Connect of Cincinnati."
+    time: "Decmber 2015 - February 2016"
+    title: "Refugee Connect"
+  -
     details: "Made with Ruby on Rails, I worked on the second 'sports Med' page where I took elements from the main page, turned them into partials and reapplied/reskinned them for a new purpose."
     href: "http://liberty.cincinnatichildrens.org/"
     image: liberty
