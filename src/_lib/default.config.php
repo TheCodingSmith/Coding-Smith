@@ -32,8 +32,8 @@ $_POST['redirectOnFail']          = '_tpl/error.html';
 //$_POST['text_only']               = false; //default is false, set to true to send Text only emails if using class.phpmailer.php
 
 /* Variables normally passed in the form - NO DEFAULTS ASSOCIATES WITH THESE, EXAMPLES ONLY */
-//$_POST['redirect']                = '_tpl/thankyou.html';
-//$_POST['required']                = 'frmFirstname,frmLastname,email';
+$_POST['redirect']                = '_tpl/thankyou.html';
+$_POST['required']                = 'frmFirstname,email,frmMessage';
 //$_POST['sort']                    = 'alphabetic';
 $_POST['print_blank_fields']      = '1'; // or true;
 //$_POST['title']                   = 'Feedback Form Results';
