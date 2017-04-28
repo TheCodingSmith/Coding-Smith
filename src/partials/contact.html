@@ -1,4 +1,4 @@
-{{#each portfolio.contact}}
+<!-- {{#each portfolio.contact}}
 	<div class="contact" id="contact">
 		<div class="row">
 			<div class="columns">
@@ -7,8 +7,7 @@
 				{{this.copy}}</p>
 			</div>
 		</div>
-		<form method="POST" action="/_lib/phpmailer-fe.php" enctype="multipart/form-data">
-		<input type="hidden" value="sampleform.html" name="referer">
+		<form method="POST" action="contact.php">
 			<div class="row">
 				{{#each this.forms}}
 					<div class="small-12 medium-6 columns">
@@ -20,18 +19,10 @@
 			<div class="row">
 				<div class="small-12 columns">
 					<label for="textarea">
-						<textarea name="frmMessage" rows="8" cols="80" placeholder="Tell me about your project"></textarea>
+						<textarea name="message" rows="8" cols="80" placeholder="Tell me about your project"></textarea>
 					</label>
 				</div>
 			</div>
-
-		<div class="row">
-			<div class="columns">
-				<p>
-					<code>Please note: You might receive a 500 error while still under construction. We will receive your message.</code>
-				</p>
-			</div>
-		</div>
 
 		<div class="row">
 			<div class="columns">
@@ -44,4 +35,18 @@
 
 	</div>
 
-{{/each}}
+{{/each}} -->
+
+<div class="contact" id="contact">
+	<div class="row">
+		<div class="columns">
+			<p>
+			<b>Interested in working together?</b>
+		</div>
+	</div>
+	<div class="row">
+		<div class="columns">
+			<iframe src='/contact/contactform.php' frameborder='0' width='100%' height='600' ></iframe>
+		</div>
+	</div>
+</div>
