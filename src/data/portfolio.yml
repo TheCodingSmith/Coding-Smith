@@ -49,6 +49,7 @@ showcase:
     details: "Made with Ruby on Rails with HAML and Sass. I was responsible for building the main page and article pages. each component is made using flex and partials so we can use an admin system to dynamically serve each page."
     href: "http://accomplishments.cincinnatichildrens.org/urology/2017/overview"
     image: accomplishment-report
+    alt: "The Accomplishment Report for Cincinnati Children's is a collection of articles and staff for each department."
     summary: "The Accomplishment Report for Cincinnati Children's is a collection of articles and staff for each department."
     time: "October 2016 - December 2016"
     title: "Accomplishments Report"
@@ -56,18 +57,21 @@ showcase:
     details: "We used animations with scrollmagic to get a nice slide and fade effect. Built on Ruby on Rails with HAML and Sass."
     href: "https://mobiloil.com/en/article/why-the-mobil-advantage/mobil-1-performance/mobil-1-annual-protection-long-lasting-oil?WT.ac=Home-JT_m1ap-ep-oil-filter"
     image: annual-protection
+    alt: "Webpage for Mobil 1 Oil's new Annual Protection."
     summary: "Webpage for Mobil 1 Oil's new Annual Protection."
     time: "September 2016 - January 2017"
     title: "Annual Protection"
   -
     details: "Several corporate illy shop pages that are not readily avaialable to the public. These were all single pages for their Holiday guide, coffee origins and espresso comparisons."
     image: illy
+    alt: "Multiple pages for shop.illy."
     summary: "Multiple pages for shop.illy."
     time: "Throughout 2016"
     title: "illy Various Pages"
   -
     details: "A custom Wordpress theme I built for a fashion website called Modster.com. Written with PHP this is a fully functional Wordpress theme with Pages and partials."
     image: modster
+    alt: "Wordpress site for Modster."
     summary: "Wordpress site for Modster."
     time: "September 2015 - November 2015"
     title: Modster
@@ -75,6 +79,7 @@ showcase:
     details: "Written in liquid with Shopify, Universal Package is a retail store that mainly sells containers."
     href: "https://www.universalpackage.com/"
     image: universal-package
+    alt: "Shopify eCommerce Site."
     summary: "Shopify eCommerce Site."
     time: "February 2016 - April 2016"
     title: "Universal Package"
@@ -82,6 +87,7 @@ showcase:
     details: "Using Wordpress with PHP, I modified a blank theme to create a new theme. Refugee Connect of Greater Cincinnati to help unite and educate resettled refugess."
     href: "http://www.refugeeconnect.org/"
     image: refugee-connect
+    alt: "Wordpress website Refugee Connect of Cincinnati."
     summary: "Wordpress website Refugee Connect of Cincinnati."
     time: "Decmber 2015 - February 2016"
     title: "Refugee Connect"
@@ -89,6 +95,7 @@ showcase:
     details: "Made with Ruby on Rails, I worked on the second 'sports Med' page where I took elements from the main page, turned them into partials and reapplied/reskinned them for a new purpose."
     href: "http://liberty.cincinnatichildrens.org/"
     image: liberty
+    alt: "Website for Cincinnati Children's newer Liberty Campus."
     summary: "Website for Cincinnati Children's newer Liberty Campus."
     time: "December 2016 - February 2017"
     title: "Liberty Campus"
