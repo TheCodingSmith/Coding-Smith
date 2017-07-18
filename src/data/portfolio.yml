@@ -44,6 +44,11 @@ navigation:
     href: "https://www.linkedin.com/in/miceonfire/"
     icon: linkedin
     target: _blank
+  -
+    copy: facebook
+    href: "https://wwww.facebook.com/miceonfire"
+    icon: facebook
+    target: _blank
 showcase:
   -
     details: "Made with Ruby on Rails with HAML and Sass. I was responsible for building the main page and article pages. each component is made using flex and partials so we can use an admin system to dynamically serve each page."
