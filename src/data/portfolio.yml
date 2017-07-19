@@ -104,6 +104,35 @@ showcase:
     summary: "Website for Cincinnati Children's newer Liberty Campus."
     time: "December 2016 - February 2017"
     title: "Liberty Campus"
+showcaseDesigns:
+  -
+    details: "Hunnypot Creations is a local bakery. Made with Adobe Illustrator."
+    href: "https://www.facebook.com/hunnypotcreations1/"
+    image: hunnypot
+    alt: "Hunnypot Creations"
+    title: "Hunnypot Creations"
+  -
+    details: "Weller Rustic Design is a comapny that makes homes and cabins. Commisioned to make their logo. We went through the process of a couple designs until the client was satisfied with the results."
+    image: weller
+    href: "https://www.behance.net/gallery/24884111/Weller-Rustic-Design"
+    alt: "Weller Rustic Design"
+    title: "Weller Rustic Design"
+  -
+    details: "Bethel Floral Boutique commisioned a logo for their shop. We went through many sketches and changes before the client approved."
+    image: bethel
+  -
+    details: "A banner made for a Facebook Party event. All the silhouette's were done by me custom in Illustrator."
+    image: china
+  -
+    details: "A wedding invitaion where I was given examples of similiar invitations they liked, as I sketched up the design and put it together for the couple."
+    image: mcgee
+  -
+    details: "A birthday invitation that was Pokemon themed. All the Pokemon were hand done by me in illustrator and customized for the client."
+    image: pokemon
+  -
+    details: "A business card done for a local painting company. Logo and designs done by me included in the business card done in illustrator."
+    image: shannon
+
 skills:
   -
     class: git
