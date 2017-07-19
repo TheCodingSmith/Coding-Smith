@@ -7,9 +7,9 @@
 	<div class="row">
 		{{#if portfolio.showcaseDesigns}}
 		{{#each portfolio.showcaseDesigns}}
-			<div class="row" id="{{this.image}}">
-				<div class="large-8 small-12 columns desktop-view">
-					<img src="../assets/img/{{this.image}}/large.png" alt="{{this.alt}}">
+
+				<div id="{{this.image}}" class="large-4 small-6 columns desktop-view">
+					<img src="../assets/img/{{this.image}}/{{this.image}}.png" alt="{{this.alt}}">
 					<h2>{{this.title}}</h2>
 
 					{{#if this.details}}
@@ -22,11 +22,7 @@
 					{{/if}}
 
 				</div>
-				<div class="large-3 small-12 columns mobile-view">
-					<img src="../assets/img/{{this.image}}/mobile.png" alt="{{this.alt}}">
-				</div>
 
-		</div>
 		{{/each}}
 		{{/if}}
 	</div>
