@@ -22,12 +22,10 @@
 			<div class="large-8 small-12 columns">
 				{{#if portfolio.navigation}}
 				{{#each portfolio.navigation}}
-					<button>
-						<a href="{{this.href}}" target="{{this.target}}">
-							<i class="fa fa-{{this.icon}}"></i>
-							<span>{{this.copy}}</span>
-						</a>
-					</button>
+					<a href="{{this.href}}" target="{{this.target}}">
+						<i class="fa fa-{{this.icon}}"></i>
+						<span>{{this.copy}}</span>
+					</a>
 				{{/each}}
 				{{/if}}
 			</div>
