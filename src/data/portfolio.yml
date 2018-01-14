@@ -31,23 +31,28 @@ navigation:
     href: /showcase.html
     icon: "briefcase "
   -
-    copy: github
+    copy: Github
     href: "https://github.com/TheCodingSmith"
     icon: github
     target: _blank
   -
-    copy: contact
+    copy: Contact
     href: "mailto:coding.r.smith@gmail.com"
     icon: paper-plane
   -
-    copy: linkedin
+    copy: LinkedIn
     href: "https://www.linkedin.com/in/codingsmith/"
     icon: linkedin
     target: _blank
   -
-    copy: facebook
+    copy: Facebook
     href: "https://wwww.facebook.com/miceonfire"
     icon: facebook
+    target: _blank
+  -
+    copy: UpWork
+    href: "https://www.upwork.com/fl/codingsmith"
+    icon: coffee
     target: _blank
 showcase:
   -
@@ -62,46 +67,46 @@ showcase:
     details: "We used animations with scrollmagic to get a nice slide and fade effect. Built on Ruby on Rails with HAML and Sass."
     href: "https://mobiloil.com/en/article/why-the-mobil-advantage/mobil-1-performance/mobil-1-annual-protection-long-lasting-oil?WT.ac=Home-JT_m1ap-ep-oil-filter"
     image: annual-protection
-    alt: "Webpage for Mobil 1 Oil's new Annual Protection."
-    summary: "Webpage for Mobil 1 Oil's new Annual Protection."
+    alt: "Webpage for Mobil 1 Oil's new Annual Protection. Shows the effects of their Annual Protection and FAQs"
+    summary: "Webpage for Mobil 1 Oil's new Annual Protection. Shows the effects of their Annual Protection and FAQs"
     time: "September 2016 - January 2017"
     title: "Annual Protection"
   -
     details: "Several corporate illy shop pages that are not readily avaialable to the public. These were all single pages for their Holiday guide, coffee origins and espresso comparisons."
     image: illy
-    alt: "Multiple pages for shop.illy."
-    summary: "Multiple pages for shop.illy."
+    alt: "Multiple pages for shop.illy. Including Gift pages and coffe types. For internal and External site use."
+    summary: "Multiple pages for shop.illy. Including Gift pages and coffe types. For internal and External site use."
     time: "Throughout 2016"
     title: "illy Various Pages"
   -
     details: "A custom Wordpress theme I built for a fashion website called Modster.com. Written with PHP this is a fully functional Wordpress theme with Pages and partials."
     image: modster
-    alt: "Wordpress site for Modster."
-    summary: "Wordpress site for Modster."
+    alt: "Wordpress site for a fashion blog to create custom outfits and profiles for designers."
+    summary: "Wordpress site for a fashion blog to create custom outfits and profiles for designers."
     time: "September 2015 - November 2015"
     title: Modster
   -
     details: "Written in liquid with Shopify, Universal Package is a retail store that mainly sells containers."
     href: "https://www.universalpackage.com/"
     image: universal-package
-    alt: "Shopify eCommerce Site."
-    summary: "Shopify eCommerce Site."
+    alt: "Shopify eCommerce Site that mainly sells containers and shipping supplies, written in liquid."
+    summary: "Shopify eCommerce Site that mainly sells containers and shipping supplies, written in liquid."
     time: "February 2016 - April 2016"
     title: "Universal Package"
   -
     details: "Using Wordpress with PHP, I modified a blank theme to create a new theme. Refugee Connect of Greater Cincinnati to help unite and educate resettled refugess."
     href: "http://www.refugeeconnect.org/"
     image: refugee-connect
-    alt: "Wordpress website Refugee Connect of Cincinnati."
-    summary: "Wordpress website Refugee Connect of Cincinnati."
+    alt: "Wordpress website Refugee Connect of Cincinnati to connect refugees together and to help get them resources."
+    summary: "Wordpress website Refugee Connect of Cincinnati to connect refugees together and to help get them resources."
     time: "Decmber 2015 - February 2016"
     title: "Refugee Connect"
   -
     details: "Made with Ruby on Rails, I worked on the second 'sports Med' page where I took elements from the main page, turned them into partials and reapplied/reskinned them for a new purpose."
     href: "http://liberty.cincinnatichildrens.org/"
     image: liberty
-    alt: "Website for Cincinnati Children's newer Liberty Campus."
-    summary: "Website for Cincinnati Children's newer Liberty Campus."
+    alt: "Website for Cincinnati Children's newer Liberty Campus. Apart of their rebranding with new sports medicine pages."
+    summary: "Website for Cincinnati Children's newer Liberty Campus. Apart of their rebranding with new sports medicine pages."
     time: "December 2016 - February 2017"
     title: "Liberty Campus"
 showcaseDesigns:
